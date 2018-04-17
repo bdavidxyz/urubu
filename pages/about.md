@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: A propos
 permalink: /about/
 feature-img: "https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523971085/circuit_sdcyur.jpg"
-tags: [About, Test]
+tags: []
 ---
 
 Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.

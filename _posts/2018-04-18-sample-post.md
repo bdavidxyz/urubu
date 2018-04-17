@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sample post
-tags: [Test, Lorem, Ipsum]
+tags: [97Choses]
 excerpt_separator: <!--more-->
 ---
 Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. 
