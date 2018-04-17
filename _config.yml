@@ -51,6 +51,7 @@ theme_settings:
   katex: true # Enable if using math markup
   portfolio: false
   jobs: true
+  newsletter: true
   search: true
   tags: true
   
@@ -84,6 +85,9 @@ collections:
     output: true
     permalink: /:collection/:name
   jobs:
+    output: true
+    permalink: /:collection/:name
+  newsletter:
     output: true
     permalink: /:collection/:name
 

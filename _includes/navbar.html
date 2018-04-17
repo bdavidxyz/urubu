@@ -51,6 +51,16 @@
             </a>
         </li>
         {% endif %}
+        {% if site.theme_settings.newsletter %}
+        <li class="separator">
+            |
+        </li>
+        <li>
+            <a class="clear" href="{{ site.url }}{{ site.baseurl }}/newsletter">
+                Newsletter
+            </a>
+        </li>
+        {% endif %}
         {% if site.theme_settings.search %}
         <li class="separator">
             |
