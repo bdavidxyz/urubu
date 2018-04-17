@@ -41,6 +41,16 @@
             </a>
         </li>
         {% endif %}
+        {% if site.theme_settings.jobs %}
+        <li class="separator">
+            |
+        </li>
+        <li>
+            <a class="clear" href="{{ site.url }}{{ site.baseurl }}/jobs">
+                Offres d'emploi
+            </a>
+        </li>
+        {% endif %}
         {% if site.theme_settings.search %}
         <li class="separator">
             |

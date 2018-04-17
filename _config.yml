@@ -1,35 +1,35 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+baseurl: "/urubu"
+url: "https://bdavidxyz.github.io"
+title: Urubu # site's title
+description: "Un site web pour les développeurs web" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
+  title: Urubu # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+     <p>Un blog </p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+   Fait avec un bon vieux <a href="https://jekyllrb.com/">Jekyll</a> des familles, thème de <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "bdavidxyz@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "bdavidxyz"
   google_plus:
   instagram:
   keybase:
@@ -40,7 +40,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: # "twitter username"
+  twitter: "bdavidxyz" # "twitter username"
   vimeo:
   wordpress:
   youtube:
@@ -49,7 +49,8 @@ theme_settings:
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
-  portfolio: true
+  portfolio: false
+  jobs: true
   search: true
   tags: true
   
@@ -57,12 +58,12 @@ theme_settings:
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_next_post: "Article suivant"
+  str_previous_post: "Article précédent"
+  str_next_page: "Suivant"
+  str_previous_page: "Précédent"
+  str_continue_reading: "Lire la suite"
+  str_javascript_required_disqus: "Merci d'autoriser le JavaScript pour voir les commentaires"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
@@ -80,6 +81,9 @@ paginate_path: "blog/page:num"
 # PORTFOLIO
 collections:
   portfolio:
+    output: true
+    permalink: /:collection/:name
+  jobs:
     output: true
     permalink: /:collection/:name
 
