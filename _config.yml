@@ -2,7 +2,7 @@
 baseurl: "/urubu"
 url: "https://bdavidxyz.github.io"
 title: Urubu # site's title
-description: "Un site web pour les développeurs web" # used by search engines
+description: "Offres d'emploi, tests d'algorithmie, et blog pour les développeurs web" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
