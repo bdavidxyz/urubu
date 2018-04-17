@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A propos
+title: À propos
 permalink: /about/
 feature-img: "https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523971085/circuit_sdcyur.jpg"
 tags: []
