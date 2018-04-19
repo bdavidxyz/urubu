@@ -50,7 +50,7 @@ theme_settings:
   disqus_shortname:
   katex: true # Enable if using math markup
   portfolio: false
-  jobs: true
+  jobs: false
   newsletter: true
   search: true
   tags: true
