@@ -1,15 +1,15 @@
 # SITE CONFIGURATION
-baseurl: "/triangleplus"
+baseurl: "/urubu"
 url: "https://bdavidxyz.github.io"
-title: Triangle+ # site's title
+title: Urubu # site's title
 description: "Offres d'emploi, tests d'algorithmie, et blog pour les développeurs web" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Triangle+ # blog's title
-  avatar: assets/img/triangle.svg
+  title: Urubu # blog's title
+  avatar: assets/img/urubu.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 

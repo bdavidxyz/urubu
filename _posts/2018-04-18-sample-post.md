@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sample post
+permalink: /blog/sample-post/
 tags: [97Choses]
 excerpt_separator: <!--more-->
 ---

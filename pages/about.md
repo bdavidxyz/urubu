@@ -6,9 +6,14 @@ feature-img: "https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523971085/
 tags: []
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Bienvenue sur ce modeste site web à destination d'un public qui s'intéresse de près ou de loin à la programmation web.
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+Vous y trouverez un blog, des tests d'algorithmie, et des offres d'emploi.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+Le blog est centré sur ce qui tourne autour du développement web, sans jamais rentrer dans les détails techniques, pour rester accessible à tous. Par exemple, il y aura des articles sur la santé, l'économie, l'éducation. Mais pas sur des dernières subtilités d'ES6.
+
+Les tests d'algorithmie (à venir) permettrons d'évaluer votre niveau en programmation.
+
+Les offres d'emploi sont écrit par un développeur, ce qui vous épargnera des sachets d'aspirine.
+
+Je m'appelle David, je suis développeur web.
