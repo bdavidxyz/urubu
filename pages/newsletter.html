@@ -1,23 +1,20 @@
 --- 
-layout: bootstrap 
+layout: tightbootstrap 
 title : "La newsletter"
 permalink: /newsletter/
 feature-img: "https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523972534/old-phone_odu6nq.jpg"
 hide: true
 ---
 <style type="text/css">
-/*  .mj-embedded-content {
-    height: 600px;
-  }*/
   header#main{
-    margin: 0;
-    padding: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
-  #ifrm {
-    padding: 0;
+  iframe {
+    padding:0;
   }
 </style>
-<div style="margin-top: 3rem;"> 
+<div style="margin-top: 3rem;text-align:center"> 
   <iframe id="ifrm" style="" scrolling="no" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2TE1/6aY" width="100%" height="242"></iframe>
 </div>
 <script type="text/javascript">
@@ -28,18 +25,6 @@ var cintval = setInterval(function(){
   var cont = $('#iframeid').contents().find("body").height() 
   $('#ifrm').css('height', "500px");
   $('#ifrm .mj-embedded').css('height', "500px");
-
-  $('.mj-subscribe-button').keypress(function (e) {
-    console.log('heeey')
-   var key = e.which;
-   if(key == 13)  // the enter key code
-    {
-      $('.mj-subscribe-button').click();
-      return false;  
-    }
-  });   
-
-
   clearInterval(cintval);
 }
  

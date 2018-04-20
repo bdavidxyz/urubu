@@ -3,7 +3,7 @@ layout: post
 title: Blabla post
 published: true
 permalink: /blog/blabla/
-tags: [aaa, bbb]
+tags: []
 excerpt_separator: <!--more-->
 hide: true
 ---

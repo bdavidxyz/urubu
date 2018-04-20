@@ -6,7 +6,16 @@ feature-img: "https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523971085/
 tags: []
 ---
 
-Bienvenue sur ce modeste site web à destination d'un public qui s'intéresse de près ou de loin à la programmation web.
+
+Bienvenue sur ce blog qui parle du web. Vous y trouverez des articles qui s'intéressent à la programmation et au web, sans jamais 
+
+ * Certains sont des vieux articles, qui sont restés plus que jamais au goût du jour, d'où leur grande valeur.
+ * Il y aura des interviews sur
+
+
+
+
+Il 
 
 Vous y trouverez un blog, des tests d'algorithmie, et des offres d'emploi.
 
