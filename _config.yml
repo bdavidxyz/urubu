@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Un blog </p>
+     <p>Juste un blog sur le web</p>
   header_text_feature_image: https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523971290/triangular_wxahrq.jpg
   footer_text: >
    Fait avec un bon vieux <a href="https://jekyllrb.com/">Jekyll</a> des familles, thème de <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>

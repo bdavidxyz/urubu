@@ -19,5 +19,7 @@ _development_tool/*
 Gemfile.lock
 *.gem
 
+.publish/*
+
 node_modules/*
 

@@ -28,6 +28,18 @@ var cintval = setInterval(function(){
   var cont = $('#iframeid').contents().find("body").height() 
   $('#ifrm').css('height', "500px");
   $('#ifrm .mj-embedded').css('height', "500px");
+
+  $('.mj-subscribe-button').keypress(function (e) {
+    console.log('heeey')
+   var key = e.which;
+   if(key == 13)  // the enter key code
+    {
+      $('.mj-subscribe-button').click();
+      return false;  
+    }
+  });   
+
+
   clearInterval(cintval);
 }
  

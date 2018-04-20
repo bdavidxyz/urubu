@@ -1,7 +1,7 @@
 ---
 layout: page
 title: À propos
-permalink: /about/
+permalink: /a-propos/
 feature-img: "https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523971085/circuit_sdcyur.jpg"
 tags: []
 ---
