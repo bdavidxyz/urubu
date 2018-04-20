@@ -95,7 +95,7 @@
             |
         </li>
         <li>
-            <a class="clear" href="/urubu/about/">
+            <a class="clear" href="/urubu/a-propos/">
                 À propos
             </a>
         </li>
@@ -135,7 +135,7 @@
             |
         </li>
         <li>
-            <a class="clear" href="http://localhost:4000/urubu/search">
+            <a class="clear" href="http://localhost:4000/urubu/recherche">
                 <i class="fa fa-search" aria-hidden="true"></i>
             </a>
         </li>
@@ -198,6 +198,18 @@ var cintval = setInterval(function(){
   var cont = $('#iframeid').contents().find("body").height() 
   $('#ifrm').css('height', "500px");
   $('#ifrm .mj-embedded').css('height', "500px");
+
+  $('.mj-subscribe-button').keypress(function (e) {
+    console.log('heeey')
+   var key = e.which;
+   if(key == 13)  // the enter key code
+    {
+      $('.mj-subscribe-button').click();
+      return false;  
+    }
+  });   
+
+
   clearInterval(cintval);
 }
  
