@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <div class="home">
   {% if site.theme_settings.header_text %}
   <div id="main" class="call-out"
@@ -9,6 +10,50 @@ layout: default
     {{ site.theme_settings.header_text }}
   </div>
   {% endif %}
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+var cintval = setInterval(function(){
+ if($('#ifrm').length)
+{
+  $('#ifrm').css('height', "330px");
+  $('#ifrm .mj-embedded').css('height', "330px");
+  $('#ifrm .mj-embedded').css('height', "330px");
+  clearInterval(cintval);
+}
+ 
+},300)
+})
+</script>
+
+
+
+  <style type="text/css">
+    @media (min-width: 901px) {
+    .krow { width: 100%; display: table; table-layout: fixed; }
+    .kcol { display: table-cell; }
+    .kcoll { width: 20%; }
+    .kcolc { width: 60%; }
+    }
+    @media (max-width: 900px) {
+    .krow { width: 100%; }
+    .kcoll { display: none; }
+    #ifrm {padding: 0;}
+    /*.colc { display: none; }*/
+    }
+
+  </style>
+  <div class="krow">
+    <div class="kcol kcoll"> </div>
+    <div class="kcol kcolc">
+      <section>
+        <iframe id="ifrm" style="" scrolling="no" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2TE1/6aY" width="100%" height="242"></iframe>
+      </section>
+    </div>
+    <div class="kcol kcoll"> </div>
+  </div>
+
 
   <div class="posts">
     {% for post in paginator.posts %}
