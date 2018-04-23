@@ -18,7 +18,7 @@ theme_settings:
      <p>Juste un weblog</p>
   header_text_feature_image: https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523971290/triangular_wxahrq.jpg
   footer_text: >
-   Fait avec <a href="https://jekyllrb.com/">Jekyll</a> • Thème de <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> • <a href="/urubu/mentions-legales">Conditions générales</a>
+   Fait avec <a href="https://jekyllrb.com/">Jekyll</a> • Thème de <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> • <a href="/urubu/mentions-legales">Mentions légales</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
