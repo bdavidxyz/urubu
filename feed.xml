@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Urubu</title>
-        <atom:link href="/urubu/feed.xml" rel="self" type="application/rss+xml"/>
-        <link>http://localhost:4000/urubu/</link>
+        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+        <link>http://localhost:4000/</link>
         <description></description>
-        <pubDate>Mon, 23 Apr 2018 16:07:17 +0200</pubDate>
+        <pubDate>Mon, 23 Apr 2018 16:40:48 +0200</pubDate>
         
         <item>
             <title>Les anomalies ne devraient pas être ignorées</title>
-            <link>/urubu/blog/nignorez-pas-les-anomalies/</link>
-            <guid isPermaLink="true">/urubu/blog/nignorez-pas-les-anomalies/</guid>
+            <link>/blog/nignorez-pas-les-anomalies/</link>
+            <guid isPermaLink="true">/blog/nignorez-pas-les-anomalies/</guid>
             <description>&lt;p&gt;Un logiciel qui doit fonctionner correctement pendant de longues périodes doit être robuste. Pour tester correctement les logiciels qui fonctionnent sur de longues durées, le développeur doit prêter attention aux anomalies de toutes sortes et employer une technique que j’appelle le test d’anomalies.&lt;/p&gt;
 
 &lt;p&gt;Cette méthode se base sur l’idée que les anomalies sont davantage dues à la causalité plutôt qu’à de vilains diablotins. Ainsi, les anomalies sont des indicateurs qui doivent être recherchés plutôt qu’ignorés, comme c’est généralement le cas.&lt;/p&gt;
