@@ -26,3 +26,6 @@ Les tests d'algorithmie (à venir) permettrons d'évaluer votre niveau en progra
 Les offres d'emploi sont écrit par un développeur, ce qui vous épargnera des sachets d'aspirine.
 
 Je m'appelle David, je suis développeur web.
+
+<!-- Newsletter CTA -->
+{% include newsletter_partial.html %}
