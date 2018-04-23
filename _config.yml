@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/urubu"
+baseurl: ""
 url: "https://bdavidxyz.github.io"
 title: Urubu # site's title
 description: "Offres d'emploi, tests d'algorithmie, et blog pour les développeurs web" # used by search engines
