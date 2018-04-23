@@ -9,7 +9,7 @@ description: "Offres d'emploi, tests d'algorithmie, et blog pour les développeu
 theme_settings:
   # Meta
   title: Urubu # blog's title
-  avatar: assets/img/urubu.svg
+  avatar: assets/img/urubu2.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
