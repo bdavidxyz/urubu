@@ -51,7 +51,7 @@ theme_settings:
   katex: true # Enable if using math markup
   portfolio: false
   jobs: false
-  newsletter: false
+  newsletter: true
   search: true
   tags: true
   
