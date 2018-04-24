@@ -3,7 +3,7 @@ layout: post
 title: Les anomalies ne devraient pas être ignorées
 permalink: /blog/nignorez-pas-les-anomalies/
 date: "20 avril 2018"
-tags: [97ThingsExtended]
+tags: [Technique,Intermédiaire,97ThingsExtended]
 excerpt_separator: <!--more-->
 ---
 Un logiciel qui doit fonctionner correctement, et pendant longtemps, se doit d'être robuste. Pour tester correctement des logiciels qui fonctionnent sur de longues durées, le développeur doit prêter attention aux anomalies de toutes sortes, et employer une technique que j'appelle le <i>test d'anomalies</i>.
@@ -31,3 +31,9 @@ Pour comprendre le rythme et repérer les anomalies, votre programme doit êtr
 Si vous effectuez l'exercice dans sa totalité, dans les conditions de la production, vous aurez des retours sur la manière dont votre programme répond. Le flux d’entrée doit être proche (si ce n’est identique) à vos données et aux évènements que vous rencontrerez en production. Il y a plusieurs techniques pour réaliser cela, y compris enregistrer et rejouer les données, créer des données, ou alimenter les données d’un autre composant qui alimente ensuite le votre.
 
 Cette charge doit aussi être capable d’être mesurée. Ainsi, vous pouvez démarrer doucement, puis augmenter progressivement la charge pour pousser votre système encore plus loin. En démarrant doucement, vous sentirez mieux le rythme. Plus votre programme est robuste, plus il peut être dur de le pousser. Aller au devant de ces anomalies rares aide à mieux comprendre ce qui est nécessaire pour produire un logiciel robuste.
+
+<p>
+  <i>
+    Traduction libre d'un article de <a href="http://programmer.97things.oreilly.com/wiki/index.php/Keith_Gardner">Keith Gardner</a> paru en tant que contribution additionnelle au livre <a href="http://programmer.97things.oreilly.com/wiki/index.php/97_Things_Every_Programmer_Should_Know">"97 things every programmer should know"</a>
+  </i>
+</p>
