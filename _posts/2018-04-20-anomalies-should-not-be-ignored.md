@@ -3,6 +3,7 @@ layout: post
 title: Les anomalies ne devraient pas être ignorées
 permalink: /blog/nignorez-pas-les-anomalies/
 date: "20 avril 2018"
+published: false
 tags: [Technique,Intermédiaire,97ThingsExtended]
 excerpt_separator: <!--more-->
 ---

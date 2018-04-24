@@ -13,7 +13,9 @@ Il ne rentre pas dans les détails techniques :
  - Pour rester accessible au plus grand nombre,
  - Pour éviter une dépréciation rapide des articles.
 
-Par exemple, il y aura des articles sur la santé, l'économie, l'éducation, l'environnement, l'entrepreunariat... Mais pas sur les prochaines subtilités d'ES12.
+Ainsi, les articles techniques resteront assez généralistes. 
+
+Il y aura aussi des articles sur la santé, l'économie, l'éducation, l'environnement, l'organisation, l'entrepreunariat...
 
 Quel genre d'article va sortir ?
 
