@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Agissez avec prudence
-permalink: /blog/nignorez-pas-les-anomalies/
+permalink: /blog/agissez-avec-prudence/
 date: "25 avril 2018"
 published: true
 tags: [Technique,Débutant,97Things]
