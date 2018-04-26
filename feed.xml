@@ -5,12 +5,12 @@
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
         <link>http://localhost:4000/</link>
         <description></description>
-        <pubDate>Thu, 26 Apr 2018 16:21:26 +0200</pubDate>
+        <pubDate>Thu, 26 Apr 2018 17:06:53 +0200</pubDate>
         
         <item>
             <title>Agissez avec prudence</title>
-            <link>/blog/nignorez-pas-les-anomalies/</link>
-            <guid isPermaLink="true">/blog/nignorez-pas-les-anomalies/</guid>
+            <link>/blog/agissez-avec-prudence/</link>
+            <guid isPermaLink="true">/blog/agissez-avec-prudence/</guid>
             <description>&lt;blockquote&gt;
   &lt;p&gt;“Quoi que vous entrepreniez, agissez avec prudence, et réfléchissez aux conséquences” &lt;i&gt;Anon&lt;/i&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
