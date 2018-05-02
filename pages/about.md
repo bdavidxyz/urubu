@@ -13,7 +13,7 @@ Tous les articles sont, et seront liés à des <strong>thématiques connexes</st
  - l'entrepreunariat
  - l'éducation
 
-Mais aussi des sujets <strong>a priori plus éloigné du web</strong> alors qu'en fait <strong>pas du tout</strong> : 
+Mais aussi des sujets <strong>a priori plus éloigné</strong> du web - alors qu'en fait non : 
  - la santé
  - l'économie
  - l'environnement
@@ -23,7 +23,6 @@ Il y aura parfois des articles techniques, qui resteront généralistes :
 
  - Pour rester accessibles au plus grand nombre,
  - Pour éviter une dépréciation rapide des articles.
-
 
 Je m'appelle <a href="http://bdavidxyz.com">David</a>, je développe des applications web en tant qu'indépendant.
 
