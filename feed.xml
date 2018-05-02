@@ -5,38 +5,7 @@
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
         <link>http://localhost:4000/</link>
         <description></description>
-        <pubDate>Thu, 26 Apr 2018 17:06:53 +0200</pubDate>
-        
-        <item>
-            <title>Agissez avec prudence</title>
-            <link>/blog/agissez-avec-prudence/</link>
-            <guid isPermaLink="true">/blog/agissez-avec-prudence/</guid>
-            <description>&lt;blockquote&gt;
-  &lt;p&gt;“Quoi que vous entrepreniez, agissez avec prudence, et réfléchissez aux conséquences” &lt;i&gt;Anon&lt;/i&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Quel que soit le &lt;i&gt;degré de confort apparent&lt;/i&gt; de votre planning en début d’itération, vous ne pouvez pas éviter d’être sous pression de temps en temps. Si vous avez à choisir entre «faire les choses correctement» et «faire vite», il est souvent intéressant de «faire vite», étant entendu que vous y reviendrez plus tard, et que vous corrigerez.&lt;/p&gt;
-
-&lt;p&gt;Lorsque vous faites cette promesse à vous-même, votre équipe et votre client, vous le pensez vraiment.&lt;/p&gt;
-
-&lt;p&gt;Mais trop souvent, la prochaine itération apporte de nouveaux problèmes, et vous vous concentrez sur eux. Ce genre de travail différé est connu comme dette technique &lt;strong&gt;et ce n’est pas votre ami&lt;/strong&gt;. Plus précisément, Martin Fowler appelle ceci la &lt;strong&gt;dette technique délibérée&lt;/strong&gt; dans sa taxonomie de la dette technique. Elle ne doit pas être confondue avec une &lt;strong&gt;dette technique par inadvertance&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;La dette technique est comme un prêt: vous en bénéficiez à court terme, mais vous devez payer des intérêts jusqu’à ce qu’il soit entièrement remboursé. Les raccourcis dans le code rendent plus difficile l’ajout de fonctionnalités ou la refactorisation de votre code. Ils sont des lieux de propagation de défauts, et de cas de test fragiles. Plus vous les oubliez, plus ça va mal. Au moment où vous faites un premier correctif, il se peut qu’il y ait une pile de choix de conception pas tout à fait corrects sur le problème original, rendant le code beaucoup plus difficile à refactoriser et à rectifier. En fait, c’est souvent dans le cas où les choses sont trop mauvaises que vous devez les réparer, que vous y retourner en fait pour y remédier. Et, d’ici là, il est souvent si difficile de réparer, que vous ne pouvez pas vraiment vous permettre de prendre le risque ou perdre du temps.&lt;/p&gt;
-
-&lt;p&gt;Il y a des moments où vous devez contracter des dettes techniques pour respecter un délai, ou mettre en œuvre une petite partie d’une fonctionnalité. Essayez de ne pas être dans cette position, mais si la situation l’exige absolument, alors allez-y. Mais (&lt;strong&gt;et c’est un gros mais&lt;/strong&gt;) vous devez suivre la dette technique et la rembourser rapidement, sinon le projet va rapidement plonger. Dès que vous prenez la décision de faire des compromis, écrivez une &lt;i&gt;todo list&lt;/i&gt;, ou consignez-la dans votre système de suivi des anomalies pour vous assurer qu’elle ne soit pas oubliée.&lt;/p&gt;
-
-&lt;p&gt;Si vous planifiez le remboursement de la dette à la prochaine itération, le coût sera minime. Laisser la dette impayée accumulera des intérêts, et cet intérêt devrait être suivi pour rendre le coût visible. Cela mettra l’accent sur la valeur commerciale de la dette technique du projet, et permettra une hiérarchisation appropriée du remboursement. Le choix de la façon de calculer, et de la prise en compte les intérêts dépendra de chaque projet, mais mettez en place un suivi approprié.&lt;/p&gt;
-
-&lt;p&gt;Remboursez la dette technique dès que possible. Il serait imprudent de faire autrement.&lt;/p&gt;
-
-&lt;p&gt;
-  &lt;i&gt;
-    Traduction libre d'un article de &lt;a href=&quot;http://programmer.97things.oreilly.com/wiki/index.php/Seb_Rose&quot;&gt;Seb Rose&lt;/a&gt; paru en tant que 1ère contribution au livre &lt;a href=&quot;http://programmer.97things.oreilly.com/wiki/index.php/97_Things_Every_Programmer_Should_Know&quot;&gt;&quot;97 things every programmer should know&quot;&lt;/a&gt;
-  &lt;/i&gt;
-&lt;/p&gt;
-</description>
-            <pubDate>Wed, 25 Apr 2018 00:00:00 +0200</pubDate>
-        </item>
+        <pubDate>Wed, 02 May 2018 15:32:27 +0200</pubDate>
         
     </channel>
 </rss>
