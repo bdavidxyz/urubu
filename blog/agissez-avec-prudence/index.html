@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- JQuery (used for bootstrap and jekyll search) -->
+    <script src="/assets/js/jquery-3.2.1.min.js" ></script>
+    
+    <!-- Main JS (navbar.js and katex_init.js)-->
+    <script defer=true src="/assets/js/main.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="http://localhost:4000/blog/agissez-avec-prudence/">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Urubu" href="http://localhost:4000///feed.xml"/>
+
+    <!-- Font Awesome -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css"> 
+    
+
+    <!-- KaTeX 0.8.3 -->
+    
+    <!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/katex.min.css">
+    <script src="/assets/js/katex.min.js">
+    </script>
+    
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-79244438-4', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    
+    
+    <!-- seo tags -->
+    <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Agissez avec prudence | Urubu</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Agissez avec prudence" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="“Quoi que vous entrepreniez, agissez avec prudence, et réfléchissez aux conséquences” Anon Quel que soit le degré de confort apparent de votre planning en début d’itération, vous ne pouvez pas éviter d’être sous pression de temps en temps. Si vous avez à choisir entre «faire les choses correctement» et «faire vite», il est souvent intéressant de «faire vite», étant entendu que vous y reviendrez plus tard, et que vous corrigerez. Lorsque vous faites cette promesse à vous-même, votre équipe et votre client, vous le pensez vraiment. Mais trop souvent, la prochaine itération apporte de nouveaux problèmes, et vous vous concentrez sur eux. Ce genre de travail différé est connu comme dette technique et ce n’est pas votre ami. Plus précisément, Martin Fowler appelle ceci la dette technique délibérée dans sa taxonomie de la dette technique. Elle ne doit pas être confondue avec une dette technique par inadvertance. La dette technique est comme un prêt: vous en bénéficiez à court terme, mais vous devez payer des intérêts jusqu’à ce qu’il soit entièrement remboursé. Les raccourcis dans le code rendent plus difficile l’ajout de fonctionnalités ou la refactorisation de votre code. Ils sont des lieux de propagation de défauts, et de cas de test fragiles. Plus vous les oubliez, plus ça va mal. Au moment où vous faites un premier correctif, il se peut qu’il y ait une pile de choix de conception pas tout à fait corrects sur le problème original, rendant le code beaucoup plus difficile à refactoriser et à rectifier. En fait, c’est seulement quand les choses sont devenues si mauvaises et qu’il faut absolument les réparer, que vous replongez dans le code les réparer. Et, à ce moment-là, c’est devenu si difficile que vous ne pouvez pas vraiment vous permettre de prendre des risques, ou perdre du temps. Il y a des moments où vous devez contracter des dettes techniques pour respecter un délai, ou mettre en œuvre une petite partie d’une fonctionnalité. Essayez de ne pas être dans ce cas, mais si la situation l’exige absolument, alors allez-y. Mais (et c’est un gros mais) vous devez suivre la dette technique et la rembourser rapidement, sinon le projet va rapidement se dégrader. Dès que vous prenez la décision de faire un compromis, créez une todo-list, ou consignez-le dans votre système de suivi des anomalies pour vous assurer qu’il ne soit pas oublié. Si vous planifiez le remboursement de la dette à la prochaine itération, le coût sera minime. Laisser la dette impayée accumulera des intérêts, et ces intérêts devraient être suivis pour rendre le coût visible. Cela mettra l’accent sur la valeur commerciale de la dette technique du projet, et permettra une hiérarchisation appropriée du remboursement. Le choix de la façon de calculer, et de la prise en compte des intérêts dépendra de chaque projet, mais mettez en place un suivi approprié. Remboursez la dette technique dès que possible. Il serait imprudent de faire autrement. Traduction libre d&#39;un article de Seb Rose paru en tant que 1ère contribution au livre &quot;97 things every programmer should know&quot;" />
+<meta property="og:description" content="“Quoi que vous entrepreniez, agissez avec prudence, et réfléchissez aux conséquences” Anon Quel que soit le degré de confort apparent de votre planning en début d’itération, vous ne pouvez pas éviter d’être sous pression de temps en temps. Si vous avez à choisir entre «faire les choses correctement» et «faire vite», il est souvent intéressant de «faire vite», étant entendu que vous y reviendrez plus tard, et que vous corrigerez. Lorsque vous faites cette promesse à vous-même, votre équipe et votre client, vous le pensez vraiment. Mais trop souvent, la prochaine itération apporte de nouveaux problèmes, et vous vous concentrez sur eux. Ce genre de travail différé est connu comme dette technique et ce n’est pas votre ami. Plus précisément, Martin Fowler appelle ceci la dette technique délibérée dans sa taxonomie de la dette technique. Elle ne doit pas être confondue avec une dette technique par inadvertance. La dette technique est comme un prêt: vous en bénéficiez à court terme, mais vous devez payer des intérêts jusqu’à ce qu’il soit entièrement remboursé. Les raccourcis dans le code rendent plus difficile l’ajout de fonctionnalités ou la refactorisation de votre code. Ils sont des lieux de propagation de défauts, et de cas de test fragiles. Plus vous les oubliez, plus ça va mal. Au moment où vous faites un premier correctif, il se peut qu’il y ait une pile de choix de conception pas tout à fait corrects sur le problème original, rendant le code beaucoup plus difficile à refactoriser et à rectifier. En fait, c’est seulement quand les choses sont devenues si mauvaises et qu’il faut absolument les réparer, que vous replongez dans le code les réparer. Et, à ce moment-là, c’est devenu si difficile que vous ne pouvez pas vraiment vous permettre de prendre des risques, ou perdre du temps. Il y a des moments où vous devez contracter des dettes techniques pour respecter un délai, ou mettre en œuvre une petite partie d’une fonctionnalité. Essayez de ne pas être dans ce cas, mais si la situation l’exige absolument, alors allez-y. Mais (et c’est un gros mais) vous devez suivre la dette technique et la rembourser rapidement, sinon le projet va rapidement se dégrader. Dès que vous prenez la décision de faire un compromis, créez une todo-list, ou consignez-le dans votre système de suivi des anomalies pour vous assurer qu’il ne soit pas oublié. Si vous planifiez le remboursement de la dette à la prochaine itération, le coût sera minime. Laisser la dette impayée accumulera des intérêts, et ces intérêts devraient être suivis pour rendre le coût visible. Cela mettra l’accent sur la valeur commerciale de la dette technique du projet, et permettra une hiérarchisation appropriée du remboursement. Le choix de la façon de calculer, et de la prise en compte des intérêts dépendra de chaque projet, mais mettez en place un suivi approprié. Remboursez la dette technique dès que possible. Il serait imprudent de faire autrement. Traduction libre d&#39;un article de Seb Rose paru en tant que 1ère contribution au livre &quot;97 things every programmer should know&quot;" />
+<link rel="canonical" href="http://localhost:4000/blog/agissez-avec-prudence/" />
+<meta property="og:url" content="http://localhost:4000/blog/agissez-avec-prudence/" />
+<meta property="og:site_name" content="Urubu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-01T00:00:00+02:00" />
+<script type="application/ld+json">
+{"description":"“Quoi que vous entrepreniez, agissez avec prudence, et réfléchissez aux conséquences” Anon Quel que soit le degré de confort apparent de votre planning en début d’itération, vous ne pouvez pas éviter d’être sous pression de temps en temps. Si vous avez à choisir entre «faire les choses correctement» et «faire vite», il est souvent intéressant de «faire vite», étant entendu que vous y reviendrez plus tard, et que vous corrigerez. Lorsque vous faites cette promesse à vous-même, votre équipe et votre client, vous le pensez vraiment. Mais trop souvent, la prochaine itération apporte de nouveaux problèmes, et vous vous concentrez sur eux. Ce genre de travail différé est connu comme dette technique et ce n’est pas votre ami. Plus précisément, Martin Fowler appelle ceci la dette technique délibérée dans sa taxonomie de la dette technique. Elle ne doit pas être confondue avec une dette technique par inadvertance. La dette technique est comme un prêt: vous en bénéficiez à court terme, mais vous devez payer des intérêts jusqu’à ce qu’il soit entièrement remboursé. Les raccourcis dans le code rendent plus difficile l’ajout de fonctionnalités ou la refactorisation de votre code. Ils sont des lieux de propagation de défauts, et de cas de test fragiles. Plus vous les oubliez, plus ça va mal. Au moment où vous faites un premier correctif, il se peut qu’il y ait une pile de choix de conception pas tout à fait corrects sur le problème original, rendant le code beaucoup plus difficile à refactoriser et à rectifier. En fait, c’est seulement quand les choses sont devenues si mauvaises et qu’il faut absolument les réparer, que vous replongez dans le code les réparer. Et, à ce moment-là, c’est devenu si difficile que vous ne pouvez pas vraiment vous permettre de prendre des risques, ou perdre du temps. Il y a des moments où vous devez contracter des dettes techniques pour respecter un délai, ou mettre en œuvre une petite partie d’une fonctionnalité. Essayez de ne pas être dans ce cas, mais si la situation l’exige absolument, alors allez-y. Mais (et c’est un gros mais) vous devez suivre la dette technique et la rembourser rapidement, sinon le projet va rapidement se dégrader. Dès que vous prenez la décision de faire un compromis, créez une todo-list, ou consignez-le dans votre système de suivi des anomalies pour vous assurer qu’il ne soit pas oublié. Si vous planifiez le remboursement de la dette à la prochaine itération, le coût sera minime. Laisser la dette impayée accumulera des intérêts, et ces intérêts devraient être suivis pour rendre le coût visible. Cela mettra l’accent sur la valeur commerciale de la dette technique du projet, et permettra une hiérarchisation appropriée du remboursement. Le choix de la façon de calculer, et de la prise en compte des intérêts dépendra de chaque projet, mais mettez en place un suivi approprié. Remboursez la dette technique dès que possible. Il serait imprudent de faire autrement. Traduction libre d&#39;un article de Seb Rose paru en tant que 1ère contribution au livre &quot;97 things every programmer should know&quot;","@type":"BlogPosting","url":"http://localhost:4000/blog/agissez-avec-prudence/","headline":"Agissez avec prudence","dateModified":"2018-05-01T00:00:00+02:00","datePublished":"2018-05-01T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/agissez-avec-prudence/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- Manual seo tags -->
+    <!--
+    <title>Agissez avec prudence | Urubu</title>
+    <meta name="description" content="  “Quoi que vous entrepreniez, agissez avec prudence, et réfléchissez aux conséquences” AnonQuel que soit le degré de confort apparent de votre planning en d...">
+    -->
+</head>
+
+  <body>
+    <header class="site-header">
+    
+    <!-- Logo and title -->
+	<div class="branding">
+		<a href="/">
+		    <img class="avatar" src="/assets/img/urubu2.svg" alt=""/>
+		</a>
+
+		<h1 class="site-title">
+		    <a href="/">Urubu</a>
+		</h1>
+	</div>
+    
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+    
+    <!-- Menu -->
+    <ul>
+        
+        
+        
+        
+        <li class="separator">
+            |
+        </li>
+        <li>
+            <a class="clear" href="/a-propos/">
+                À propos
+            </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        
+        
+        <li class="separator">
+            |
+        </li>
+        <li>
+            <a class="clear" href="http://localhost:4000/newsletter">
+                Newsletter
+            </a>
+        </li>
+        
+        
+        <li class="separator">
+            |
+        </li>
+        <li>
+            <a class="clear" href="http://localhost:4000/recherche">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+        
+        <li class="separator">
+            |
+        </li>
+        <li>
+            <a class="clear" href="http://localhost:4000/tags">
+                <i class="fa fa-tags" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+        
+    </ul>
+        
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header id="main" style="background-image: url('/')">
+    <h1 id="Agissez+avec+prudence" class="title">Agissez avec prudence</h1>
+    <p class="meta">
+    Mardi 1er mai 2018
+    
+    </p>
+  </header>
+  <section class="post-content"><blockquote>
+  <p>“Quoi que vous entrepreniez, agissez avec prudence, et réfléchissez aux conséquences” <i>Anon</i></p>
+</blockquote>
+
+<p>Quel que soit le <i>degré de confort apparent</i> de votre planning en début d’itération, vous ne pouvez pas éviter d’être sous pression de temps en temps. Si vous avez à choisir entre «faire les choses correctement» et «faire vite», il est souvent intéressant de «faire vite», étant entendu que vous y reviendrez plus tard, et que vous corrigerez.</p>
+
+<p>Lorsque vous faites cette promesse à vous-même, votre équipe et votre client, vous le pensez vraiment.</p>
+
+<p>Mais trop souvent, la prochaine itération apporte de nouveaux problèmes, et vous vous concentrez sur eux. Ce genre de travail différé est connu comme dette technique <strong>et ce n’est pas votre ami</strong>. Plus précisément, Martin Fowler appelle ceci la <strong>dette technique délibérée</strong> dans sa taxonomie de la dette technique. Elle ne doit pas être confondue avec une <strong>dette technique par inadvertance</strong>.</p>
+
+<p>La dette technique est comme un prêt: vous en bénéficiez à court terme, mais vous devez payer des intérêts jusqu’à ce qu’il soit entièrement remboursé. Les raccourcis dans le code rendent plus difficile l’ajout de fonctionnalités ou la refactorisation de votre code. Ils sont des lieux de propagation de défauts, et de cas de test fragiles. Plus vous les oubliez, plus ça va mal. Au moment où vous faites un premier correctif, il se peut qu’il y ait une pile de choix de conception pas tout à fait corrects sur le problème original, rendant le code beaucoup plus difficile à refactoriser et à rectifier. En fait, c’est seulement quand les choses sont devenues si mauvaises et qu’il faut absolument les réparer, que vous replongez dans le code les réparer. Et, à ce moment-là, <strong>c’est devenu si difficile</strong> que vous ne pouvez pas vraiment vous permettre de prendre des risques,  ou perdre du temps.</p>
+
+<p>Il y a des moments où vous devez contracter des dettes techniques pour respecter un délai, ou mettre en œuvre une petite partie d’une fonctionnalité. Essayez de ne pas être dans ce cas, mais si la situation l’exige absolument, alors allez-y. Mais (<strong>et c’est un gros mais</strong>) vous devez suivre la dette technique et la rembourser rapidement, sinon le projet va rapidement se dégrader. Dès que vous prenez la décision de faire un compromis, créez une <i>todo-list</i>, ou consignez-le dans votre système de suivi des anomalies pour vous assurer qu’il ne soit pas oublié.</p>
+
+<p>Si vous planifiez le remboursement de la dette à la prochaine itération, le coût sera minime. Laisser la dette impayée accumulera des intérêts, et ces intérêts devraient être suivis pour rendre le coût visible. Cela mettra l’accent sur la valeur commerciale de la dette technique du projet, et permettra une hiérarchisation appropriée du remboursement. Le choix de la façon de calculer, et de la prise en compte des intérêts dépendra de chaque projet, mais <strong>mettez en place un suivi approprié</strong>.</p>
+
+<p>Remboursez la dette technique dès que possible. Il serait imprudent de faire autrement.</p>
+
+<p>
+  <i>
+    Traduction libre d'un article de <a href="http://programmer.97things.oreilly.com/wiki/index.php/Seb_Rose">Seb Rose</a> paru en tant que 1ère contribution au livre <a href="http://programmer.97things.oreilly.com/wiki/index.php/97_Things_Every_Programmer_Should_Know">"97 things every programmer should know"</a>
+  </i>
+</p>
+</section>
+   
+   <!-- Tag list -->
+  
+  
+
+
+<footer>
+  <div class="tag-list">
+    
+      <div class="meta">Tags</div>
+    
+
+    
+    <a class="button" href="/tags#97Things">
+      <p><i class="fa fa-tag fa-fw"></i> 97Things</p>
+    </a>
+    
+    <a class="button" href="/tags#Débutant">
+      <p><i class="fa fa-tag fa-fw"></i> Débutant</p>
+    </a>
+    
+    <a class="button" href="/tags#Technique">
+      <p><i class="fa fa-tag fa-fw"></i> Technique</p>
+    </a>
+    
+  </div>
+</footer>
+
+  
+  <!-- newsletter -->
+  <section>
+  <style type="text/css">
+    #ifrm {
+      padding: 0;
+    }
+  </style>
+  <script type="text/javascript">
+    window.addEventListener('message', function (event) {
+    //Here We have to check content of the message event  for safety purpose
+    //event data contains message sent from page added in iframe as shown in step 3
+    if (event.data.hasOwnProperty("FrameHeight")) {
+            //Set height of the Iframe
+            $("#ifrm").css("height", event.data.FrameHeight);        
+          }
+        });
+
+    // On iframe load you have to send message to iframe window content with "FrameHeight" message
+
+    function setIframeHeight(ifrm) {
+     var height = ifrm.contentWindow.postMessage("FrameHeight", "*");   
+   }
+ </script>
+
+  <iframe onload="setIframeHeight(this)" id="ifrm" style="" scrolling="no" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2TE1/6aY" width="100%" height="242"></iframe>
+
+
+</section>
+
+
+
+    
+</article>
+
+
+<!-- Disqus -->
+
+
+<!-- Post navigation -->
+
+  <div id="post-nav">
+  
+  
+</div>
+
+
+    </div>
+    
+<footer class="site-footer">
+    <p class="text">Fait avec <a href="https://jekyllrb.com/">Jekyll</a> • Thème de <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> • <a href="/mentions-legales">Mentions légales</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+	<a href="http://localhost:4000/feed.xml" title="Follow RSS feed">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="mailto:bdavidxyz@gmail.com" title="Email">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/bdavidxyz" title="Follow on GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/bdavidxyz" title="Follow on Twitter" class="type">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+
+  </body>
+</html>
