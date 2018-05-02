@@ -8,21 +8,22 @@ tags: []
 
 Bienvenue sur ce blog qui s'intéresse <i>de loin</i> au web.
 
-Il ne rentre pas dans les détails techniques :
+Tous les articles sont, et seront liés à des <strong>thématiques connexes</strong> : 
+ - l'accessibilité
+ - l'entrepreunariat
+ - l'éducation
 
- - Pour rester accessible au plus grand nombre,
+Mais aussi des sujets <strong>a priori plus éloigné du web</strong> alors qu'en fait <strong>pas du tout</strong> : 
+ - la santé
+ - l'économie
+ - l'environnement
+ - et pleins d'autres trucs
+
+Il y aura parfois des articles techniques, qui resteront généralistes :
+
+ - Pour rester accessibles au plus grand nombre,
  - Pour éviter une dépréciation rapide des articles.
 
-Ainsi, les articles techniques resteront assez généralistes. 
-
-Il y aura aussi des articles sur la santé, l'économie, l'éducation, l'environnement, l'organisation, l'entrepreunariat...
-
-Quel genre d'article va sortir ?
-
-
- - Des articles maison, si inspiration il y a. Mais surtout :
- - La traduction de vieux articles qui sont resté d'actualité, car ce sont eux qui ont le plus de valeur,
- - Et des interviews.
 
 Je m'appelle <a href="http://bdavidxyz.com">David</a>, je développe des applications web en tant qu'indépendant.
 
