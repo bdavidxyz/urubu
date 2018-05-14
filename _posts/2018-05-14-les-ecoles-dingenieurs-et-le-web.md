@@ -1,12 +1,17 @@
 ---
 layout: post
-title: Blabla post
+title: Les écoles d'ingénieurs et le web
 published: true
-permalink: /blog/blabla/
-tags: []
+permalink: /blog/les-ecoles-dingenieurs-et-le-web/
+tags: [éducation]
 excerpt_separator: <!--more-->
 hide: true
 ---
+
+_Interview de [Christophe Porteneuve](https://tddsworld.com/fr/), qui est [formateur JavaScript](https://delicious-insights.com/), conférencier (à trolls) hors-pair, organisateur notamment du [Paris Web](https://www.paris-web.fr/)._
+
+_Je le remercie chaleureusement pour cet échange fort instrutif._
+
 
 - <strong>Pourquoi les écoles d’ingénieurs peuvent-elles <a href="http://deliciousinsights.github.io/best-of-web-2015/#/3/4">"à la ramasse"</a> ?</strong>
 
