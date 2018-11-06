@@ -1,1 +1,3 @@
 # Urubu
+
+Collapsologie et résilience.

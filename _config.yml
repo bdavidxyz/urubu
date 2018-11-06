@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://bdavidxyz.github.io"
 title: Urubu # site's title
-description: "Blog sur le web" # used by search engines
+description: "Blog sur la collapsologie et la résilience" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Juste un weblog</p>
+     <p>Collapsologie et résilience</p>
   header_text_feature_image: https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523971290/triangular_wxahrq.jpg
   footer_text: >
    Fait avec <a href="https://jekyllrb.com/">Jekyll</a> • Thème de <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> • <a href="/mentions-legales">Mentions légales</a>

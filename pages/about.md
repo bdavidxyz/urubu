@@ -6,27 +6,27 @@ feature-img: "https://res.cloudinary.com/bdavidxyz-com/image/upload/v1523971085/
 tags: []
 ---
 
-Bienvenue sur ce blog qui s'intéresse <i>de loin</i> au web.
+Bienvenue sur ce blog qui s'intéresse à l'effondrement à venir et aux moyens d'y faire face.
 
-Tous les articles sont, et seront liés à des <strong>thématiques connexes</strong> : 
- - l'accessibilité
- - l'entrepreunariat
- - l'éducation
+Après avoir lu, vu (entre autre) Jean-Marc Jancovici et Pablo Servigne, il est temps de ne pas rester les bras croisés à contempler les catastrophes nous tomber dessus.
 
-Mais aussi des sujets <strong>a priori plus éloigné</strong> du web - alors qu'en fait non : 
- - la santé
- - l'économie
- - l'environnement
- - et pleins d'autres trucs
-
-Il y aura parfois des articles techniques, qui resteront généralistes :
-
- - Pour rester accessibles au plus grand nombre,
- - Pour éviter une dépréciation rapide des articles.
-
-Je m'appelle <a href="http://bdavidxyz.com">David</a>, je développe des applications web en tant qu'indépendant.
+Ce blog est un cheminement et une exploration des différentes voies possibles pour tenter de s'en sortir.
 
 L'urubu est un vautour d'Amérique.
+
+Je m'appelle David Boureau, j'ai 37 ans, je suis développeur web indépendant.
+
+Vous pouvez :
+
+- me suivre sur Twitter,
+- consulter les articles déjà parus,
+- vous abonner au flux RSS,
+- vous abonner à la newsletter.
+
+
+A bientôt,
+
+David.
 
 <!-- Newsletter CTA -->
 {% include newsletter_partial.html %}
