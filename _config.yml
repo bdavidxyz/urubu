@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://bdavidxyz.github.io"
+url: "http://urubu.io"
 title: Urubu # site's title
 description: "Blog sur la collapsologie et la résilience" # used by search engines
 
